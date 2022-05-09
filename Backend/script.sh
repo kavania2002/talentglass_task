@@ -10,4 +10,3 @@ website_data=$(curl $chart_url | html2text | sed -n '/Showing 250 Titles/,$p')
 echo $website_data
 
 
-
